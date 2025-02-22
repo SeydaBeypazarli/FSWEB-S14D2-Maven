@@ -23,7 +23,7 @@ public class Main {
         bedroom.getLamp().turnOn();
         System.out.println("Lamp Style: " + bedroom.getLamp().getStyle());
         System.out.println("Battery Status: " + bedroom.getLamp().isBattery());
-        System.out.println("Global Rating: " + bedroom.getLamp().getGlobalRating());
+        System.out.println("Global Rating: " + bedroom.getLamp().getGlobRating());
 
         bedroom.getBed().make();
         System.out.println("Pillows: " + bedroom.getBed().getPillows());
